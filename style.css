@@ -606,7 +606,13 @@ background-color: var(--light-gray);
     background-position: center;
     transition: ease 0.5s;
 }
-
+.advocase::after {
+    content: 'Advocase';
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 2px;
+}
 .billpro {
     background-image: var(--image-billpro);
     background-size: 100%;
@@ -615,7 +621,13 @@ background-color: var(--light-gray);
     background-position: center;
     transition: ease 0.5s;
 }
-
+.billpro::after {
+    content: 'BillPro';
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 2px;
+}
 .syv {
     background-image: var(--image-syv);
     background-size: 100%;
@@ -624,9 +636,15 @@ background-color: var(--light-gray);
     background-position: center;
     transition: ease 0.5s;
 }
-
+.syv::after {
+    content: 'SYV';
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 2px;
+}
 .fillup {
-    background: var(--fillup-gradient);
+    background: var(--primary-color);
     transition: ease 0.5s;
 }
 
@@ -639,7 +657,7 @@ background-color: var(--light-gray);
 }
 
 .websites {
-    background: var(--websites-gradient);
+    background: var(--primary-color);
     transition: ease 0.5s;
 }
 
